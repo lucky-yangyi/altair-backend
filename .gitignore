@@ -1,0 +1,7 @@
+docs/
+.DS_Store
+.idea/*
+*.exe
+storage/*
+
+conf/runmode.yaml

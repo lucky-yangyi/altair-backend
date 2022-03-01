@@ -1,0 +1,26 @@
+Server:
+  RunMode: prod
+  HttpPort: 8083
+  ReadTime: 60
+  WriteTimeout: 60
+  DBtype: mysql
+  Username: root
+  Password: 123456
+  Host: 127.0.0.1:3306
+  DBName: fone
+  #  TablePrefix:digital
+  Charset: utf8
+  ParseTime: True
+  MaxIdleConns: 10
+  MaxOpenConns: 30
+  SeverHost: http://127.0.0.1:8088
+  RedisHost: 127.0.0.1:6379
+  RedisPassword: 123456
+
+  DbUri: root2:123456@tcp(127.0.0.1:3306)/fone_qa?charset=utf8mb4
+App:
+  DefaultPageSize: 10
+  MaxPageSize: 100
+  LogSavePath: storage/logs
+  LogFileName: app
+  LogFileExt: .log
